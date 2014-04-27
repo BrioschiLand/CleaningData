@@ -12,7 +12,9 @@
 #   train/subject_train.txt
 #   train/X_train.txt
 #   train/y_train.txt
-setwd( "C:\\Users\\giorgio\\workspace\\CleanData\\UCI HAR Dataset" )
+
+# Uncomment and use the right path
+# setwd( "C:\\Users\\giorgio\\workspace\\CleanData\\UCI HAR Dataset" )
 
 # Read train and test files containing the feature vectors and merge them
 # [requirement #1 - also note that merging for subject and activity is
